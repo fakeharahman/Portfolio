@@ -1,0 +1,20 @@
+.Box2{
+    width:80%;
+    color: white;
+    /* color: #808000; */
+    /* background-color: #808000; */
+    height: 40%;
+    margin: 30vh auto;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-family: 'Orbitron', sans-serif;
+    /* margin: auto; */
+
+
+}
+
+@media (min-width: 800px){
+    .Box2{
+        width: 500px;
+    }
+}

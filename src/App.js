@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import Particle from './Components/Particle/Particle'
 import './App.css';
+import SplitText from './Components/SplitText/SplitText';
+import IntroComponents from './Components/IntroComponents/IntroComponents';
+import TypingText from './Components/TypingText/TypingText';
+// import Box1 from './Components/animation/box1';
+import Box2 from './Components/animation/box2';
+
+// import SectionWipes from './Components/panels/Panels';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Particle />
+      {/* <Box1 /> */}
+      <IntroComponents><Box2 /></IntroComponents>
+      <SplitText>Heyyyyy</SplitText>
+      <TypingText />
+      {/* <SectionWipes /> */}
+
     </div>
   );
 }
