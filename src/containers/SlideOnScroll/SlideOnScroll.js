@@ -44,20 +44,20 @@ const slideOnScroll = (props) => (
                 pin={false}
                 reverse={true}
                 duration={300}
-                offset={-100}
+                offset={-250}
             // triggerHook="-100"
             >
                 <Tween
                     from={{
-                        x: '-100%',
-                        y: '100%',
+                        // x: '-100%',
+                        // y: '100%',
 
                         opacity: 0,
                         color: '#ff0000',
                         ease: 'Expo.easeOut'
                     }}
                     to={{
-                        x: '0%', y: '0%',
+                        // x: '0%', y: '0%',
                         opacity: 1,
                         color: '#ffffff',
                     }}

@@ -3,6 +3,7 @@ import Particle from '../../Components/Particle/Particle'
 import SlideOnScroll from '../SlideOnScroll/SlideOnScroll';
 import IntroComponents from '../IntroComponents/IntroComponents'
 import TitleText from '../../Components/animation/TitleText/titleText';
+import Picture from '../../Components/Picture/Picture';
 
 class IntroPage extends Component {
     render() {
@@ -10,6 +11,8 @@ class IntroPage extends Component {
             <React.Fragment>
                 <Particle />
                 <IntroComponents><TitleText /></IntroComponents>
+                <Picture />
+                <h1 style={{ color: 'gold' }}>Hi!</h1>
                 <SlideOnScroll>Heyyyyy</SlideOnScroll>
 
             </React.Fragment>
