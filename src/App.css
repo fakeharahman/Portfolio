@@ -1,17 +1,17 @@
 .App {
   text-align: center;
-color: gray;
+/* color: gray; */
 background-color: #121250;
 
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
 }
 ::-webkit-scrollbar {
-  width: 0px;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0px;  
+  background: transparent;  
 }
-/* Optional: show position indicator in red */
+
 ::-webkit-scrollbar-thumb {
   background: #FF0000;
-}
+} */

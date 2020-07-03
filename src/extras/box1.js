@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactAnime from 'react-animejs'
-const { Anime, stagger } = ReactAnime
+const { Anime } = ReactAnime
 
 const box1 = () => (
 

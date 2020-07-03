@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Typed from 'react-typed';
 import 'react-typed/dist/animatedCursor.css';
+import classes from './TypingText.module.css';
 class TypingText extends Component {
     render() {
         return (
-            <div>
+            <div className={classes.TypingText}>
                 <Typed
                     strings={[
                         'Graphic Designer',

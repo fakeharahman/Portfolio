@@ -1,4 +1,4 @@
-.Box2{
+.TitleText{
     width:80%;
     color: white;
     /* color: #808000; */
@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 800px){
-    .Box2{
+    .TitleText{
         width: 500px;
     }
 }

@@ -5,7 +5,7 @@ import { Controller, Scene } from 'react-scrollmagic';
 import { Tween } from 'react-gsap';
 
 
-const SplitTextStyled = styled.div`
+const SlideOnScroll = styled.div`
   overflow: hidden;
   text-align: center;
 
@@ -36,8 +36,8 @@ const SplitTextStyled = styled.div`
   }
 `;
 
-const SplitText = (props) => (
-    <SplitTextStyled>
+const slideOnScroll = (props) => (
+    <SlideOnScroll>
 
         <Controller>
             <Scene
@@ -69,7 +69,7 @@ const SplitText = (props) => (
             <div className="section" />
         </Controller>
         <div className="section" />
-    </SplitTextStyled>
+    </SlideOnScroll>
 );
 
-export default SplitText;
+export default slideOnScroll;
