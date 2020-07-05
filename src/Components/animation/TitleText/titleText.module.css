@@ -3,12 +3,12 @@
     color: white;
     /* height: 40%; */
     /* margin: 30vh auto; */
-    font-size: 2rem;
+    font-size: 2em;
     line-height: 2.4rem;
     font-family: 'Orbitron', sans-serif;
 }
 
-@media (min-width: 800px){
+@media (min-width: 600px){
     .TitleText{
         width: 500px;
     }

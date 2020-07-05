@@ -13,7 +13,7 @@ const Picture = () => (
                 pin={false}
                 reverse={true}
                 duration={300}
-                offset={-250}
+                offset={-200}
 
             >
                 <Tween

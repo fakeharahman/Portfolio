@@ -1,5 +1,5 @@
 .Picture{
-    margin: 5% auto;
+    margin: 20px auto;
     margin-bottom: 8px;
     width: 50%;
 }
@@ -12,5 +12,6 @@
 @media(min-width: 600px){
     .Picture img{
         width: 300px;
+        margin-top: 5%;
     }
 }

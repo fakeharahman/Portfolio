@@ -1,0 +1,20 @@
+.Introduction{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.Introduction h1{
+    color: gold;
+    
+}
+.Introduction p{
+    width: 80%;
+    text-align: center;
+}
+
+@media(min-width: 600px){
+    .Introduction p{
+        width: 500px;
+    }
+}
