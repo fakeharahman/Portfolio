@@ -1,0 +1,30 @@
+.SVG1{
+    width: 80%;
+    height: 100%;
+   display: block;
+    margin: auto;
+
+}
+.SVG1 div{
+    width: 60%;
+    /* margin-right: 10%; */
+    /* padding: 0;*/
+    margin: auto;}
+
+@media(min-width: 800px){
+    .SVG1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .SVG1 div{
+        width: 30%;
+        margin: 0;
+        margin-right: 10%;
+
+    }
+
+    .SVG1 img{
+       width: 100%;
+    }
+}
