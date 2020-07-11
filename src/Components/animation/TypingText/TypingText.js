@@ -8,9 +8,11 @@ class TypingText extends Component {
             <div className={classes.TypingText}>
                 <Typed
                     strings={[
+                        'Web Developer',
+                        'Front-end Developer',
                         'Graphic Designer',
-                        'Web Designer',
-                        'Web Developer']}
+                        'Web Designer'
+                    ]}
                     typeSpeed={40}
                     backSpeed={50}
                     loop

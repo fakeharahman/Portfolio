@@ -1,11 +1,9 @@
 import React from 'react'
-import classes from './SVG1.module.css'
-import svg from '../../assets/undraw_content_team_3epn.svg'
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween } from 'react-gsap';
 
-const SVG1 = (props) => (
-    <div className={classes.SVG1}>
+const SVG = (props) => (
+    <React.Fragment>
         <Controller>
             <Scene
                 pin={false}
@@ -15,11 +13,11 @@ const SVG1 = (props) => (
             >
                 <Tween
                     from={{
-                        x: '-100%',
-                        y: '100%',
+                        x: props.xCoords,
+                        y: 0,
                         opacity: 0,
                         ease: 'Expo.easeOut',
-                        width: '70%'
+                        width: '80%'
                     }}
                     to={{
                         x: '0%',
@@ -28,12 +26,11 @@ const SVG1 = (props) => (
                         width: '100%'
                     }}
                 >
-                    <img src={svg} alt="img" />
+                    {props.children}
                 </Tween>
             </Scene>
         </Controller>
-        <p>aaaaaaaaaaaaaaa haha the thing is ahahahah</p>
-    </div>
+    </React.Fragment>
 )
 
-export default SVG1
+export default SVG
