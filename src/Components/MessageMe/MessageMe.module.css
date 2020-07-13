@@ -1,0 +1,134 @@
+.MessageMe{
+width: 75%;
+margin: auto;
+margin-top: 10%;
+text-align: center;
+}
+.MessageMe p{
+    margin-bottom: 7%;
+}
+
+.MessageMe img{
+    height: 20px;
+    padding-top: 3px;
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+@media(min-width: 600px){
+    .MessageMe{
+  width: 500px;  
+}
+}
+
+.MessageMe form {
+    /* margin-top: 5%; */
+    display: block;
+}
+.MessageMe h1{
+    color: gold;
+    font-family: 'McLaren', cursive;
+    font-size:1.75em;
+    text-align: center;
+}
+
+.back {
+    /* margin-top: 5%; */
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    counter-increment: bc;
+    /* padding: 5px 5px 5px 5px; */
+    padding: 0;
+    margin-left: -100px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    position: relative;
+    border: #000000 solid 1px;
+    font-size: 18px;
+    border: none;
+
+}
+.back:focus { outline: none; }
+
+/* .back:before {
+    content: counter(bc) "_";
+    position: absolute;
+    padding: 10px;
+} */
+
+
+
+.submitbtn {
+    overflow: hidden;
+    border: #000000 solid 1px;
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.submitbtn div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+}
+
+.submitbtn div:nth-child(1) {
+    color: #000000;
+    background-color: #CFB53B;
+}
+
+.submitbtn div:nth-child(2) {
+    background-color: #000000;
+    width: 230px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: translate(-250px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+    -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.submitbtn div:nth-child(3) {
+    color: #CFB53B;
+    left: -200px;
+    transition: left 0.2s ease;
+    -webkit-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+}
+
+.submitbtn:hover div:nth-child(2) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate(-15px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+    -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.submitbtn:hover div:nth-child(3) {
+    left: 0px;
+    transition: left 0.30000000000000004s ease;
+    -webkit-transition: left 0.30000000000000004s ease;
+    -moz-transition: left 0.30000000000000004s ease;
+}

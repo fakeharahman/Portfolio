@@ -6,6 +6,8 @@ flex-direction: column;
 }
 .Introduction h1{
     color: gold;
+    text-align: center;
+
     
 }
 .Introduction p{

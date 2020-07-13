@@ -6,21 +6,23 @@ import TitleText from '../../Components/animation/TitleText/titleText';
 import Picture from '../../Components/Picture/Picture';
 import Introduction from '../../Components/TextContent/Introduction/Introduction';
 import MainPageContent from '../../Components/MainPageContent/MainPageContent';
+import MessageMe from '../../Components/MessageMe/MessageMe';
 
 
 class IntroPage extends Component {
     render() {
         return (
-            <React.Fragment>
+            <div >
                 <Particle />
                 <IntroComponents><TitleText /></IntroComponents>
                 <Picture />
                 <Introduction />
                 <MainPageContent />
+                <MessageMe />
                 <SlideOnScroll>Heyyyyy</SlideOnScroll>
 
                 {/* <Sticky /> */}
-            </React.Fragment>
+            </div >
         )
     }
 }

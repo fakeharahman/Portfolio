@@ -9,15 +9,15 @@ class TypingText extends Component {
                 <Typed
                     strings={[
                         'Web Developer',
+                        'Web Designer',
                         'Front-end Developer',
                         'Graphic Designer',
-                        'Web Designer'
+
                     ]}
                     typeSpeed={40}
                     backSpeed={50}
                     loop
                 />
-                <br />
 
                 {/* <Typed
                     strings={[
