@@ -1,0 +1,29 @@
+.Foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
+    margin-top: 5%;
+    padding-top: 7%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+    /* background-color: #e2cc69; */
+    text-decoration: none;
+    /* background-color: #00244a; */
+}
+.Foot p{
+    text-decoration: none;
+    color: gold;
+    font-size: 0.8em;
+}
+.Foot a:hover{
+    color: goldenrod;
+}
+
+@media(min-width:600px){
+    .Foot{
+        margin-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    }
+}

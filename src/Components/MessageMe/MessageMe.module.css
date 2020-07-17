@@ -1,11 +1,15 @@
 .MessageMe{
 width: 75%;
 margin: auto;
-margin-top: 10%;
+margin-top: 13%;
 text-align: center;
 }
 .MessageMe p{
     margin-bottom: 7%;
+    font-size:1.2em;
+}
+.MessageMe p strong{
+   color: gold;
 }
 
 .MessageMe img{
@@ -18,6 +22,7 @@ text-align: center;
 @media(min-width: 600px){
     .MessageMe{
   width: 500px;  
+  margin-top: 8%;
 }
 }
 
@@ -28,7 +33,7 @@ text-align: center;
 .MessageMe h1{
     color: gold;
     font-family: 'McLaren', cursive;
-    font-size:1.75em;
+    font-size:1.8em;
     text-align: center;
 }
 

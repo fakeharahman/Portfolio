@@ -1,19 +1,30 @@
 .App {
   /* text-align: center; */
-/* color: gray; */
 background-color: #121250;
 color: white;
 font-family: 'Montserrat', sans-serif;
 
 }
-/* ::-webkit-scrollbar {
-  display: none;
-}
+/* width */
 ::-webkit-scrollbar {
-  width: 0px;  
-  background: transparent;  
+  width: 10px;
+  background-color: black;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FF0000;
-} */
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  background-color: goldenrod;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(173, 134, 33); 
+}

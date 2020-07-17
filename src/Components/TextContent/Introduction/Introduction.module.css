@@ -7,12 +7,15 @@ flex-direction: column;
 .Introduction h1{
     color: gold;
     text-align: center;
-
+    font-family: 'McLaren', cursive;
+    font-size:1.8em;
     
 }
 .Introduction p{
-    width: 80%;
+    width: 70%;
     text-align: center;
+    font-size:1.2em;
+
 }
 
 @media(min-width: 600px){

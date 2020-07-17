@@ -1,3 +1,19 @@
 .TypingText{
     font-family: monospace;
+    font-size: 4vw;
+    padding: 3vw;
+    box-sizing: border-box;
+}
+
+@media(min-width: 700px){
+    .TypingText{
+    font-size: 3vw;
+        padding: 0;
+    }
+}
+@media(min-width:1000px){
+    .TypingText{
+        font-size: 2vw;
+            padding: 0;
+        }
 }

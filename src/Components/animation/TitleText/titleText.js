@@ -5,18 +5,27 @@ import TypingText from '../TypingText/TypingText';
 
 
 const titleText = () => (
-
     <div className={classes.TitleText}>
-        <Random
-            text="Design and develop
-            All at one place"
-            iterations={1}
-            effect="verticalFadeIn"
-            effectChange={2}
-            effectDirection="up"
-        />
-        <br />
+        <div className={classes.head}>
+            <div style={{ margin: 'auto' }}>
+                <Random
+                    text="Hi! I'm Fakeha"
+                    iterations={1}
+                    effect="verticalFadeIn"
+                    effectChange={2}
+                    effectDirection="up"
+                /></div>
+            <Random
+                text="I was waiting for you..."
+                iterations={1}
+                effect="verticalFadeIn"
+                effectChange={2}
+                effectDirection="up"
+            />
+            <br />
+        </div>
         <TypingText />
+
 
     </div>
 )

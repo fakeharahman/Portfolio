@@ -14,20 +14,16 @@ const mainPageContent = (props) => (
             <SVG xCoords='-100%'><img src={designSvg} alt="img" /></SVG>
             <p>
                 <h1>Design what you want</h1>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis
-                  </p>
+                I feel that simple and interactive designs are best. My goal is to convey
+                your message most effectively to the user and make your content easy to understand.
+            </p>
         </div>
         <div className={`${classes.MainPageContent} ${classes.right}`}>
             <SVG xCoords='100%'><img src={contentSvg} alt="img" /></SVG>
             <p>
                 <h1>Develop what you need</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                 Duis</p>
+            I'm a web-developer, so I can make your website run responsively on different devices
+             with the latest technologies available!   </p>
 
         </div>
         <div className={classes.MainPageContent}>
@@ -35,11 +31,10 @@ const mainPageContent = (props) => (
             <SVG xCoords='-100%'><img src={coderSvg} alt="img" /></SVG>
             <p>
                 <h1>Languages I know</h1>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis
-      </p>
+    I work well with HTML, CSS, Javascript and React. I can also use the state
+     management library-Redux. React builds single page applications making
+     the experience more continuous and fluid for the user.
+              </p>
         </div>
     </React.Fragment>
 )
