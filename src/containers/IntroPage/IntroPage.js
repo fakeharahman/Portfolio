@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Particle from '../../Components/Particle/Particle'
-// import SlideOnScroll from '../../Components/animation/SlideOnScroll/SlideOnScroll';
 import IntroComponents from '../IntroComponents/IntroComponents'
 import TitleText from '../../Components/animation/TitleText/titleText';
 import Picture from '../../Components/Picture/Picture';
@@ -21,9 +20,6 @@ class IntroPage extends Component {
                 <MainPageContent />
                 <MessageMe />
                 <Foot />
-                {/* <SlideOnScroll>Heyyyyy</SlideOnScroll> */}
-
-                {/* <Sticky /> */}
             </div >
         )
     }

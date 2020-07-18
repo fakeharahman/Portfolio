@@ -1,0 +1,27 @@
+.ContactInfo{
+    padding: 20%;
+}
+
+.ContactInfo h1{
+    font-family: 'McLaren', cursive;
+    color: gold;
+    font-size:3em;
+    text-align: center;
+}
+.ContactInfo p{
+        font-size: 1.5em;
+}
+
+@media(min-width: 600px){
+    .ContactInfo{
+        padding: 12%;
+    }
+    .ContactInfo h1{
+        font-size:5em;
+        text-align: justify;
+    }
+    .ContactInfo p{
+        font-size: 1.7em;
+
+    }
+}

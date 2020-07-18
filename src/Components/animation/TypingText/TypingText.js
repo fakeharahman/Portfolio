@@ -12,6 +12,7 @@ class TypingText extends Component {
                         'Web Designer',
                         'Front-end Developer',
                         'Graphic Designer',
+                        'Freelancer'
 
                     ]}
                     typeSpeed={40}

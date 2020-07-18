@@ -5,9 +5,8 @@ import NavigationItem from './NavigationItem/NavigationItem'
 
 const navigationItems = props => (
     <ul className={classes.NavigationItems}>
-        <NavigationItem >Home</NavigationItem>
-        <NavigationItem>About</NavigationItem>
+        <NavigationItem link='/' exact >Home</NavigationItem>
+        <NavigationItem link='/contact'>Contact</NavigationItem>
     </ul>
 )
-// link="/" exact
 export default navigationItems

@@ -8,9 +8,9 @@ const messageMe = (props) => {
     return (
         <div className={classes.MessageMe}>
             <h1>Message Me</h1>
-            <p><strong>I am availabe for freelance! </strong> <br />
-                If you think I can help you with some project or you just want to say hi,
-                     then get in touch! </p>
+            <p>
+                If you think I can help you with your project or you just want to say hi,
+                     then let's get in touch! </p>
 
             <form action="mailto:fakeha126@gmail.com" method="post" enctype="text/plain">
 

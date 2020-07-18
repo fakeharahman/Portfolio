@@ -16,7 +16,7 @@ const titleText = () => (
                     effectDirection="up"
                 /></div>
             <Random
-                text="I was waiting for you..."
+                text="I've been waiting for you..."
                 iterations={1}
                 effect="verticalFadeIn"
                 effectChange={2}

@@ -14,15 +14,15 @@ const mainPageContent = (props) => (
             <SVG xCoords='-100%'><img src={designSvg} alt="img" /></SVG>
             <p>
                 <h1>Design what you want</h1>
-                I feel that simple and interactive designs are best. My goal is to convey
-                your message most effectively to the user and make your content easy to understand.
+                I feel that simple and interactive designs are some of the best. My ultimate goal is to convey
+                your message most effectively to your users and make your content easy to understand.
             </p>
         </div>
         <div className={`${classes.MainPageContent} ${classes.right}`}>
             <SVG xCoords='100%'><img src={contentSvg} alt="img" /></SVG>
             <p>
                 <h1>Develop what you need</h1>
-            I'm a web-developer, so I can make your website run responsively on different devices
+            I'm a web-developer, so I can make your website run responsively on different computer and mobile devices
              with the latest technologies available!   </p>
 
         </div>
@@ -30,10 +30,10 @@ const mainPageContent = (props) => (
 
             <SVG xCoords='-100%'><img src={coderSvg} alt="img" /></SVG>
             <p>
-                <h1>Languages I know</h1>
-    I work well with HTML, CSS, Javascript and React. I can also use the state
-     management library-Redux. React builds single page applications making
-     the experience more continuous and fluid for the user.
+                <h1>I know some stuff</h1>
+    I design stuff and i make stuff, mostly websites. What this means
+    is if you've got a cool website in mind, I can bring it to life.
+    If you've got more questions, I'd love to chat
               </p>
         </div>
     </React.Fragment>
