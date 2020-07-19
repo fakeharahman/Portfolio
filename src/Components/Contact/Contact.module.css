@@ -1,10 +1,16 @@
 .Contact{
     top:0;
     left: 0;
+    overflow-x: hidden;
     /* background-color:  #121250; */
     /* height: 100%; */
 }
 .Contact h1{
     margin-top: 0;
     
+}
+.Contact a{
+    text-decoration: none;
+    color: cornsilk;
+    cursor: pointer;
 }

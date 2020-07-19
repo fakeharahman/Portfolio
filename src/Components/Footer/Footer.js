@@ -7,7 +7,7 @@ const foot = props => {
             {/* <a href='/'>twitter</a>
             <a href='/'>facebook</a>
             <a href='/'>linkdin</a> */}
-            <p>pls hire me!</p>
+            {/* <p>pls hire me!</p> */}
         </div>
     )
 }

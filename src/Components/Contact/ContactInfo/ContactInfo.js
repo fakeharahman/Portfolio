@@ -8,7 +8,7 @@ const contactInfo = props => (
             effect="verticalFadeIn"
             effectChange={2}
             effectDirection="up" text='Contact' /></h1>
-        <p>For any enquiries, or just to say hello, get in touch and contact me.</p>
+        <p>For any enquiries, or just to say hello, get in touch and contact me. Thanks for visiting!</p>
     </div>
 )
 

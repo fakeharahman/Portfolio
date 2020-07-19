@@ -33,7 +33,7 @@ const mainPageContent = (props) => (
                 <h1>I know some stuff</h1>
     I design stuff and i make stuff, mostly websites. What this means
     is if you've got a cool website in mind, I can bring it to life.
-    If you've got more questions, I'd love to chat
+    If you've got more questions, I'd love to chat!
               </p>
         </div>
     </React.Fragment>

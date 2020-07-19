@@ -10,6 +10,9 @@ import Foot from '../../Components/Footer/Footer'
 
 
 class IntroPage extends Component {
+    componentDidMount() {
+        window.scroll({ top: 0, left: 0 })
+    }
     render() {
         return (
             <div >

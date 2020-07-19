@@ -1,0 +1,27 @@
+.ContactBlock{
+    padding: 0% 20%;
+    padding-bottom: 9%;
+    /* width: 40%; */
+    width: fit-content;
+}
+.ContactBlock p{
+border-top: 1px solid gray;
+padding: 0;
+margin: 0;
+font-size: 1.2rem;
+}
+.ContactBlock span{
+color: gray;
+}
+
+@media(min-width: 600px){
+    .ContactBlock{
+        padding: 0% 12%;
+        padding-bottom: 4.5%;
+
+    }
+    .ContactBlock p{
+font-size: 1.35rem;
+
+    }
+}
