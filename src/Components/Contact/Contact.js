@@ -3,7 +3,7 @@ import Image from './Image/Image'
 import classes from './Contact.module.css'
 import ContactInfo from './ContactInfo/ContactInfo'
 import ContactBlock from './ContactBlock/ContactBlock'
-import Footer from '../Footer/Footer'
+import Footer from '../UI/Footer/Footer'
 
 
 

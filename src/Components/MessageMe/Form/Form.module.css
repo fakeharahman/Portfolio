@@ -1,0 +1,55 @@
+.Input{
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.Label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+
+}
+
+.InputElement{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    margin: 0.8rem 0;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.InputElement:focus{
+    outline: none;
+    background-color: #ccc;
+}
+.Form{
+    transition: all 0.3s ease-out;
+}
+.FormClose{
+    transform: translateY(-10%);
+    opacity: 0;
+    
+}
+
+.FormOpen{
+    /* transform: translateY(-10%); */
+    opacity: 0.3;
+}

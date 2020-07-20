@@ -6,10 +6,11 @@ import Picture from '../../Components/Picture/Picture';
 import Introduction from '../../Components/TextContent/Introduction/Introduction';
 import MainPageContent from '../../Components/MainPageContent/MainPageContent';
 import MessageMe from '../../Components/MessageMe/MessageMe';
-import Foot from '../../Components/Footer/Footer'
+import Foot from '../../Components/UI/Footer/Footer'
 
 
 class IntroPage extends Component {
+
     componentDidMount() {
         window.scroll({ top: 0, left: 0 })
     }

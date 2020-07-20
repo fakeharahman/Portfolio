@@ -31,7 +31,7 @@ const mainPageContent = (props) => (
             <SVG xCoords='-100%'><img src={coderSvg} alt="img" /></SVG>
             <p>
                 <h1>I know some stuff</h1>
-    I design stuff and i make stuff, mostly websites. What this means
+    I design stuff and I make stuff, mostly websites. What this means
     is if you've got a cool website in mind, I can bring it to life.
     If you've got more questions, I'd love to chat!
               </p>
