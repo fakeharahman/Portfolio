@@ -4,11 +4,20 @@ import envelope from '../../assets/envelope-line.svg'
 import envelopeBlack from '../../assets/envelope-line-black.svg'
 import Form from './Form/Form'
 import Transition from "react-transition-group/Transition";
+import axios from '../../axios-messages'
+import Spinner from '../UI/Spinner/Spinner'
 
 
 class MessageMe extends Component {
     state = {
         showForm: false,
+        messageForm: {
+            name: '',
+            email: '',
+            content: ''
+        },
+        loading: false,
+        sending: true
 
     }
 
@@ -17,9 +26,35 @@ class MessageMe extends Component {
             return { showForm: !prevState.showForm }
         })
     }
+
+    onSubmitHandler = (e) => {
+        e.preventDefault();
+        this.setState({ loading: true })
+        const message = { ...this.state.messageForm }
+        axios.post('/messages.json', message)
+            .then(res => {
+
+                this.setState({ loading: false, sending: false })
+            })
+            .catch(err => {
+                this.setState({ loading: false, sending: false })
+            })
+    }
+
+    onChangeHandler = (e) => {
+        const updatedForm = { ...this.state.messageForm }
+        updatedForm[e.target.name] = e.target.value;
+        this.setState({ messageForm: updatedForm })
+        console.log(e.target.name)
+        console.log(updatedForm)
+    }
+
     render() {
+
+
         return (
             <div className={classes.MessageMe}>
+
                 <h1>Message Me</h1>
                 <p>
                     If you think I can help you with your project or you just want to say hi,
@@ -34,9 +69,10 @@ class MessageMe extends Component {
                 </button>
 
 
+
                 <Transition in={this.state.showForm} timeout={300} mountOnEnter unmountOnExit>
-                    {state => (
-                        <Form show={state} />
+                    {state => (this.state.loading ? <Spinner /> : !this.state.sending ? <p>Thanks for the feedback!</p> :
+                        <Form changed={(e) => this.onChangeHandler(e)} show={state} submitHandler={(e) => this.onSubmitHandler(e)} />
                     )}
                 </Transition>
 

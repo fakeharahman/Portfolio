@@ -14,7 +14,8 @@ function App() {
     <div className="App">
       <Layout>
         <Switch>
-          <Route path='/contact' render={() => <Suspense fallback={<Spinner />}><Contact /></Suspense>} />
+          <Route path='/contact' render={() => <Suspense
+            fallback={<div style={{ height: '100vh', overflow: 'hidden' }}><Spinner /></div>}><Contact /></Suspense>} />
           <Route path='/' component={IntroPage} />
           <Redirect to='/' />
         </Switch>
