@@ -11,9 +11,13 @@
     margin: auto;
 }
 .TitleText .head{
-    font-size: 6vw;
+    font-size: 6.5vw;
    
 
+}
+.TitleText .intro{
+    margin: 'auto';
+    margin-bottom: 5%;
 }
 
 @media (min-width: 700px){
@@ -23,6 +27,10 @@
     }
  
 .TitleText .head{
-    font-size: 4vw;
+    font-size: 4.5vw;
     /* line-height: 2.4rem; */
-}}
+}
+.TitleText .intro{
+    margin-bottom: 1%;
+}
+}

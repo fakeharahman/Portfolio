@@ -3,9 +3,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+height: 100vh;
+background-color: #ece7e1;
+color: black;
 }
 .Introduction h1{
-    color: gold;
+    color: #0f1923;
     text-align: center;
     font-family: 'McLaren', cursive;
     font-size:1.8em;

@@ -3,10 +3,12 @@ width: 75%;
 margin: auto;
 margin-top: 13%;
 text-align: center;
+background-color: #fd4b57;
 }
 .MessageMe p{
     margin-bottom: 7%;
     font-size:1.2em;
+    color: black;
 }
 
 
@@ -29,7 +31,7 @@ text-align: center;
     display: block;
 }
 .MessageMe h1{
-    color: gold;
+    color:  #0f1932;
     font-family: 'McLaren', cursive;
     font-size:1.8em;
     text-align: center;

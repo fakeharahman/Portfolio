@@ -3,11 +3,11 @@ import classes from './Form.module.css'
 
 const form = props => {
 
-    const cssClasses = [classes.Form, props.show === 'entering' ? classes.FormOpen : props.show === 'exiting' ? classes.FormClose : null]
+    // const cssClasses = [classes.Form, props.show === 'entering' ? classes.FormOpen : props.show === 'exiting' ? classes.FormClose : null]
 
 
     return (
-        <div className={cssClasses.join(' ')}>
+        <div className={classes.Form}>
             <form name="Message" onSubmit={props.submitHandler}>
                 <input type='text' onChange={props.changed} name='name' placeholder='Your name' className={classes.InputElement} />
                 <input type='email' onChange={props.changed} name='email' placeholder='Your Email' className={classes.InputElement} />

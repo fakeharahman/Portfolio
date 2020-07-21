@@ -1,10 +1,19 @@
 .App {
   /* text-align: center; */
-background-color: #121250;
-/* background-color: #004489; */
+/* background-color: #121250; */
+background-color: #fd4b57;
 color: white;
 font-family: 'Montserrat', sans-serif;
 
+}
+
+.Fallback {
+  height: 100vh;
+  overflow: hidden;
+   display: flex;
+    justify-content: center;
+     align-items: center;
+      background-color: #0f1932;
 }
 /* width */
 ::-webkit-scrollbar {

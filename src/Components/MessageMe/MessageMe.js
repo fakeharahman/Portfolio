@@ -3,9 +3,10 @@ import classes from './MessageMe.module.css'
 import envelope from '../../assets/envelope-line.svg'
 import envelopeBlack from '../../assets/envelope-line-black.svg'
 import Form from './Form/Form'
-import Transition from "react-transition-group/Transition";
 import axios from '../../axios-messages'
 import Spinner from '../UI/Spinner/Spinner'
+import Modal from '../UI/Modal/Modal'
+
 
 
 class MessageMe extends Component {
@@ -45,8 +46,9 @@ class MessageMe extends Component {
         const updatedForm = { ...this.state.messageForm }
         updatedForm[e.target.name] = e.target.value;
         this.setState({ messageForm: updatedForm })
-        console.log(e.target.name)
-        console.log(updatedForm)
+    }
+    formCancelHandler = () => {
+        this.setState({ showForm: false })
     }
 
     render() {
@@ -70,13 +72,18 @@ class MessageMe extends Component {
 
 
 
-                <Transition in={this.state.showForm} timeout={300} mountOnEnter unmountOnExit>
+                {/* <Transition in={this.state.showForm} timeout={300} mountOnEnter unmountOnExit>
                     {state => (this.state.loading ? <Spinner /> : !this.state.sending ? <p>Thanks for the feedback!</p> :
+                    
                         <Form changed={(e) => this.onChangeHandler(e)} show={state} submitHandler={(e) => this.onSubmitHandler(e)} />
                     )}
-                </Transition>
+                </Transition> */}
 
-
+                <Modal show={this.state.showForm}
+                    closeModal={this.formCancelHandler}>
+                    {(this.state.loading ? <Spinner /> : !this.state.sending ? <p>Thanks for the feedback!</p> :
+                        <Form changed={(e) => this.onChangeHandler(e)} submitHandler={(e) => this.onSubmitHandler(e)} />)}
+                </Modal>
 
             </div>
         )

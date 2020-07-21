@@ -15,8 +15,8 @@ class TypingText extends Component {
                         'Freelancer'
 
                     ]}
-                    typeSpeed={40}
-                    backSpeed={50}
+                    typeSpeed={30}
+                    backSpeed={20}
                     loop
                 />
 

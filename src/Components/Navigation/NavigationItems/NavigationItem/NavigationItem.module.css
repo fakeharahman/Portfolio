@@ -37,7 +37,7 @@
     
     .NavigationItem a{
         height: 100%;
-        color: white;
+        color: black;
      
         padding: 16px 10px;
         border-bottom: 4px solid transparent;
@@ -50,7 +50,7 @@
         /* background-color: rgb(221, 173, 52); */
         background-color: transparent;
         border-bottom: 4px solid #CFB53B;
-        color: white;
+        color: black;
     }
     
 }

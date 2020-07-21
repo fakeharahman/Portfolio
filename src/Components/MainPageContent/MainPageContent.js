@@ -8,34 +8,39 @@ import SVG from '../animation/SvgAnimation/SVG'
 
 const mainPageContent = (props) => (
     <React.Fragment>
-        <h1 className={classes.header}>What I Can Do</h1>
-        <div className={classes.MainPageContent}>
+        <div className={classes.block} style={{ backgroundColor: '#fd4b57' }}>
+            <h1 className={classes.header}>What I Can Do</h1>
+            <div className={classes.MainPageContent}>
 
-            <SVG xCoords='-100%'><img src={designSvg} alt="img" /></SVG>
-            <p>
-                <h1>Design what you want</h1>
+                <SVG xCoords='-100%'><img src={designSvg} alt="img" /></SVG>
+                <p>
+                    <h1>Design what you want</h1>
                 I feel that simple and interactive designs are some of the best. My ultimate goal is to convey
                 your message most effectively to your users and make your content easy to understand.
             </p>
+            </div>
         </div>
-        <div className={`${classes.MainPageContent} ${classes.right}`}>
-            <SVG xCoords='100%'><img src={contentSvg} alt="img" /></SVG>
-            <p>
-                <h1>Develop what you need</h1>
+        <div className={`${classes.block} ${classes.white}`} >
+            <div className={`${classes.MainPageContent} ${classes.right}`}>
+                <SVG xCoords='100%'><img src={contentSvg} alt="img" /></SVG>
+                <p>
+                    <h1>Develop what you need</h1>
             I'm a web-developer, so I can make your website run responsively on different computer and mobile devices
              with the latest technologies available!   </p>
 
+            </div>
         </div>
-        <div className={classes.MainPageContent}>
+        <div className={classes.block} style={{ backgroundColor: '#ece7e1' }}>
+            <div className={classes.MainPageContent}>
 
-            <SVG xCoords='-100%'><img src={coderSvg} alt="img" /></SVG>
-            <p>
-                <h1>I know some stuff</h1>
+                <SVG xCoords='-100%'><img src={coderSvg} alt="img" /></SVG>
+                <p>
+                    <h1>I know some stuff</h1>
     I design stuff and I make stuff, mostly websites. What this means
     is if you've got a cool website in mind, I can bring it to life.
     If you've got more questions, I'd love to chat!
               </p>
-        </div>
+            </div></div>
     </React.Fragment>
 )
 

@@ -26,6 +26,8 @@ class Contact extends Component {
                 target="_blank" rel="noopener noreferrer">@fake_ha_</a></ContactBlock>
             <ContactBlock type='Fiverr'><a href="https://www.fiverr.com/excurbia"
                 target="_blank" rel="noopener noreferrer">@excurbia</a></ContactBlock>
+            <ContactBlock type='Linkdin'><a href="https://www.linkedin.com/in/fakeha-rahman-277a4a1a6/"
+                target="_blank" rel="noopener noreferrer">Fakeha Rahman</a></ContactBlock>
             <Footer />
 
         </div>)

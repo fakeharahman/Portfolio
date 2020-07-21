@@ -7,7 +7,7 @@ import TypingText from '../TypingText/TypingText';
 const titleText = () => (
     <div className={classes.TitleText}>
         <div className={classes.head}>
-            <div style={{ margin: 'auto' }}>
+            <div className={classes.intro}>
                 <Random
                     text="Hi! I'm Fakeha"
                     iterations={1}
@@ -16,7 +16,7 @@ const titleText = () => (
                     effectDirection="up"
                 /></div>
             <Random
-                text="I've been waiting for you..."
+                text="Nice to meet you!"
                 iterations={1}
                 effect="verticalFadeIn"
                 effectChange={2}
