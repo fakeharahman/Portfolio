@@ -19,12 +19,7 @@ background-color: #fd4b57;
     vertical-align: bottom;
 }
 
-@media(min-width: 600px){
-    .MessageMe{
-  width: 500px;  
-  margin-top: 8%;
-}
-}
+
 
 .MessageMe form {
     /* margin-top: 5%; */
@@ -136,4 +131,16 @@ background-color: #fd4b57;
     transition: left 0.30000000000000004s ease;
     -webkit-transition: left 0.30000000000000004s ease;
     -moz-transition: left 0.30000000000000004s ease;
+}
+@media(min-width: 600px){
+    .MessageMe{
+  width: 500px;  
+  margin-top: 8%;
+}
+.MessageMe p{
+    font-size: 1.5vw;
+}
+.MessageMe h1{
+    font-size: 2.8em;
+}
 }

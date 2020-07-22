@@ -12,7 +12,7 @@ class ParticlesContainer extends Component {
                 params={{
                     "particles": {
                         "number": {
-                            "value": 170,
+                            "value": 100,
                             "density": {
                                 "enable": true,
                                 "value_area": 1803.4120608655228
@@ -47,7 +47,7 @@ class ParticlesContainer extends Component {
                             }
                         },
                         "size": {
-                            "value": 1.5,
+                            "value": 5.5,
                             "random": true,
                             "anim": {
                                 "enable": false,
@@ -57,7 +57,7 @@ class ParticlesContainer extends Component {
                             }
                         },
                         "line_linked": {
-                            "enable": true,
+                            "enable": false,
                             "distance": 150,
                             "color": "#ffffff",
                             "opacity": 0.3687847739990702,
@@ -83,11 +83,11 @@ class ParticlesContainer extends Component {
                         "events": {
                             "onhover": {
                                 "enable": true,
-                                "mode": "grab"
+                                "mode": "repulse"
                             },
                             "onclick": {
                                 "enable": true,
-                                "mode": "repulse"
+                                "mode": "push"
                             },
                             "resize": true
                         },
@@ -99,8 +99,8 @@ class ParticlesContainer extends Component {
                                 }
                             },
                             "bubble": {
-                                "distance": 400,
-                                "size": 40,
+                                "distance": 200,
+                                "size": 30,
                                 "duration": 2,
                                 "opacity": 8,
                                 "speed": 3

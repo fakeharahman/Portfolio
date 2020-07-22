@@ -20,8 +20,8 @@ class Contact extends Component {
                 target="_blank" rel="noopener noreferrer">fakeha126@gmail.com</a></ContactBlock>
             <ContactBlock type='Github'><a href="https://github.com/fakeharahman"
                 target="_blank" rel="noopener noreferrer">/fakeharahman</a></ContactBlock>
-            <ContactBlock type='Twitter'><a href="https://twitter.com/FakehaRahman"
-                target="_blank" rel="noopener noreferrer">/FakehaRahman</a></ContactBlock>
+            <ContactBlock type='Twitter'><a href="https://twitter.com/excurbia"
+                target="_blank" rel="noopener noreferrer">/excurbia</a></ContactBlock>
             <ContactBlock type='Instagram'><a href="https://www.instagram.com/fake_ha_/"
                 target="_blank" rel="noopener noreferrer">@fake_ha_</a></ContactBlock>
             <ContactBlock type='Fiverr'><a href="https://www.fiverr.com/excurbia"

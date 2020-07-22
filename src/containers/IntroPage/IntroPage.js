@@ -12,7 +12,8 @@ import Foot from '../../Components/UI/Footer/Footer'
 class IntroPage extends Component {
 
     componentDidMount() {
-        window.scroll({ top: 0, left: 0 })
+        window.scroll({ top: 0, left: 0 });
+        window.addEventListener('dblclick', (e) => e.preventDefault())
     }
     render() {
         return (
