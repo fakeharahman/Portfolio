@@ -23,7 +23,7 @@
 .NavigationItem a.active{
    
     /* color: #40A4c8; */
-    color: #A57C00;
+    color: #3c83b9;
 }
 
 @media (min-width: 500px){
@@ -49,7 +49,7 @@
     .NavigationItem a.active{
         /* background-color: rgb(221, 173, 52); */
         background-color: transparent;
-        border-bottom: 4px solid #CFB53B;
+        border-bottom: 4px solid #3c83b9;
         color: white;
     }
     

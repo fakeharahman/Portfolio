@@ -10,11 +10,11 @@
     cursor: pointer;
 }
 
-.DrawerToggle div {
+/* .DrawerToggle div {
     width: 90%;
     height: 3px;
     background-color: white;
-}
+} */
 
 @media (min-width: 500px) {
     .DrawerToggle {

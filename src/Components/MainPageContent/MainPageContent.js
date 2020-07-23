@@ -4,7 +4,8 @@ import classes from './MainPageContent.module.css'
 import contentSvg from '../../assets/develop.jpg'
 // import designSvg from '../../assets/undraw_design_components_9vy6.svg'
 import designSvg from '../../assets/design.jpg'
-import coderSvg from '../../assets/undraw_proud_coder_7ain (1).svg'
+// import coderSvg from '../../assets/undraw_proud_coder_7ain (1).svg'
+import coderSvg from '../../assets/glasses-laptop.jpg'
 
 import SVG from '../animation/SvgAnimation/SVG'
 

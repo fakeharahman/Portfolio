@@ -95,7 +95,7 @@ background-color: #fd4b57;
 
 .submitbtn div:nth-child(1) {
     color: #000000;
-    background-color: #CFB53B;
+    background-color: #ece7e1;
 }
 
 .submitbtn div:nth-child(2) {
@@ -110,7 +110,7 @@ background-color: #fd4b57;
 }
 
 .submitbtn div:nth-child(3) {
-    color: #CFB53B;
+    color: #ece7e1;
     left: -200px;
     transition: left 0.2s ease;
     -webkit-transition: left 0.2s ease;

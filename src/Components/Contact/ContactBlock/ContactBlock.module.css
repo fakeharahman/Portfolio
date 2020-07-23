@@ -8,7 +8,7 @@
 border-top: 1px solid gray;
 padding: 0;
 margin: 0;
-font-size: 1.2rem;
+font-size: 1.2em;
 }
 .ContactBlock span{
 color: gray;
@@ -21,7 +21,7 @@ color: gray;
 
     }
     .ContactBlock p{
-font-size: 1.35rem;
+font-size: 1.5em;
 
     }
 }
